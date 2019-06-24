@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f4e3c4 url('bg.gif') repeat-x scroll 0 0;
+	text-align: center;
+	font-family: "Trebuchet MS", sans-serif;
+	color: #5d251e;
+}
+
+#cnt {
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#title {
+	height: 64px;
+	line-height: 50px;
+	font-family: Garamond, Times, serif;
+	font-variant: small-caps;
+}
+
+#title span {
+	margin: 20px 0 0 10px;
+/*	height: 50px;*/
+	line-height: 13px;
+}
+
+*html #title span {margin-left: 5px;}
+
+/*
+.wave {
+	background: transparent url('andrology.gif') no-repeat scroll -100px 0;
+	width: 100px;
+	height: 64px;
+}*/
+
+#title h1 {
+	font-size: 1.6em;
+}
+
+#head {
+	height: 176px;
+	background: transparent url('header.png') no-repeat scroll 0 0;
+	color: #f4e3c4;
+	padding: 40px 360px 20px 0;
+}
+
+#head h1 {
+	font-family: Garamond, Times, serif;
+	font-size: 2em;
+	padding-bottom: 15px;
+}
+
+#head p {
+	font-size: 0.9em;
+	line-height: 1.4em;
+	margin-top: 20px;
+	/*font-weight: bold;*/
+}
+
+#main {
+	padding: 50px 0 20px 0;
+}
+
+#left {
+	float: left;
+	width: 240px;
+	margin-right: 40px;
+}
+
+#main h2{
+	font-family: Garamond, Times, serif;
+	font-variant: small-caps;
+	font-size: 1.5em;
+	text-align: center;
+	line-height: 40px;
+	background: transparent url('csik_s.gif') no-repeat scroll 0 10px;
+	margin-bottom: 10px;
+}
+
+#main p, #main li, #main td{
+	font-size: 0.8em;
+	line-height: 1.4em;
+}
+
+#menu li {
+	list-style-type: none;
+	font-weight: bold;
+}
+
+#menu a {
+	color: #5d251e;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: #693127;
+}
+
+#contact {
+	padding-top: 20px;
+}
+
+#content {
+	width: 520px;
+/*	margin-left: 280px;*/
+	float: right;
+	text-align: justify;
+}
+
+#content h2 {
+	background: transparent url('csik_l.gif') no-repeat scroll 0 10px;
+
+}
+
+#content p {
+	margin-bottom: 15px;
+}
+
+span.image {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+#content td {
+	vertical-align: top;
+	margin: 5px;
+}
+
+p.map {
+	margin: 20px 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.clr {
+	display: block;
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+	font-size: 0px;
+}
